@@ -221,7 +221,7 @@ export default function IntroPage() {
         </section>
 
         {/* ── Project spec section ── */}
-        <section className="max-w-5xl mx-auto px-6 pb-16">
+        {/* <section className="max-w-5xl mx-auto px-6 pb-16">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-sm font-semibold text-[--text-primary]">Project Specification</h2>
             <span className="text-xs text-[--text-secondary]">2 pages</span>
@@ -233,7 +233,6 @@ export default function IntroPage() {
                 key={page.num}
                 className="bg-white border border-[--border] rounded-lg overflow-hidden hover:shadow-sm transition-shadow"
               >
-                {/* card header */}
                 <div className="flex items-center justify-between px-4 pt-4 pb-3 border-b border-[--border]">
                   <div className="flex items-center gap-2.5">
                     <span className="w-7 h-7 rounded bg-[--accent-light] text-[--accent] flex items-center justify-center">
@@ -252,7 +251,6 @@ export default function IntroPage() {
                   </Link>
                 </div>
 
-                {/* requirements list */}
                 <ul className="px-4 py-3 space-y-2">
                   {page.items.map((item) => (
                     <li key={item} className="flex items-start gap-2 text-xs text-[--text-secondary]">
@@ -266,7 +264,7 @@ export default function IntroPage() {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
 
       </main>
 
